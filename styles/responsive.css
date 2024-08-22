@@ -1,0 +1,23 @@
+@media (max-width: 500px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .container {
+        min-width: 80%;
+        max-width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .top-buttons > .i-button {
+        position: absolute;
+        right: 25%;
+    }
+    
+    .main-btn{
+        display: flex;
+        justify-content: space-between;
+    }
+}
